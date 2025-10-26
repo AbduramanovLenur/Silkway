@@ -17,7 +17,7 @@ const Header = () => {
 
     return ( 
         <header className={`fixed w-full top-0 left-0 z-50 transition duration-300 ${scrolled ? 'bg-light-blue' : 'bg-transparent'}`}>
-            <div className="container">
+            <div className="container-fluid">
                 <div className="relative flex items-center justify-between gap-[20px] p-[58px_0_54px_0] max-md:p-[20px_0] max-sm:p-[8px_0]">
                     <nav className="max-md:hidden">
                         <ul className="flex gap-[40px] max-lg:gap-[15px]">
@@ -39,7 +39,7 @@ const Header = () => {
                             height={130}
                         />
                     </Link>
-                    <div className="flex items-center gap-[25px] max-w-[320px] w-full max-lg:max-w-[250px] max-md:max-w-[400px] max-md:justify-end">
+                    <div className="flex items-center justify-end gap-[25px] max-w-[320px] w-full max-lg:max-w-[250px] max-md:max-w-[400px] max-md:justify-end">
                         <div className="flex items-center gap-[5px] cursor-pointer max-sm:hidden">
                             <div>
                                 <MarkIcon />

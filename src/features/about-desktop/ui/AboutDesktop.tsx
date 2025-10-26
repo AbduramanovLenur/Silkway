@@ -6,7 +6,7 @@ const AboutDesktop = () => {
         <section>
             <div className="container">
                 <div className="flex flex-col items-center py-[22px] max-sm:py-[40px]">
-                    <TypographyTitle className="font-semibold mb-[20px] max-md:mb-[15px] text-center">
+                    <TypographyTitle className="!leading-[0.63] font-semibold mb-[20px] max-md:mb-[15px] text-center">
                         Почему выбирают нас!
                     </TypographyTitle>
                     <p className="text-[24px] font-medium leading-[1.25] max-w-[950px] w-full text-center mb-[50px] max-lg:text-[20px] max-md:text-[18px] max-md:mb-[40px] max-sm:text-[16px]">

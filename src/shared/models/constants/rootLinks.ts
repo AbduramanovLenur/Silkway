@@ -2,7 +2,7 @@ import { rootPaths } from '@shared/models/constants/rootPaths';
 
 export const rootLinks = [
     {
-        title: 'О компании',
+        title: 'О нас',
         path: rootPaths.INDEX
     },
     {

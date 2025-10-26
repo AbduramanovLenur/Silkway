@@ -28,6 +28,10 @@
 }
 
 @layer utilities {
+    .container-fluid {
+        @apply max-w-[1290px] mx-auto w-full px-[15px];
+    }
+
     .container {
         @apply max-w-[1270px] mx-auto w-full px-[15px];
     }

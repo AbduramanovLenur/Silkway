@@ -19,7 +19,7 @@ const Footer = () => {
                         </Link>
                         <div className="flex flex-col max-md:items-center">
                             <nav className="mb-[30px]">
-                                <ul className="flex gap-[50px] max-lg:gap-[15px] max-sm:flex-col max-sm:items-center">
+                                <ul className="flex gap-[50px] max-lg:gap-[15px]">
                                     {rootLinks.map(({ title, path }, index) => 
                                         <li key={index}>
                                             <Link className="text-[16px] font-medium leading-[1.125] text-white max-md:text-[14px]" to={path}>

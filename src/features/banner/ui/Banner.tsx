@@ -1,5 +1,6 @@
 import { rootPaths, SecondaryButton, TypographyTitle } from '@/shared';
 import decorHome from "@features/banner/assets/images/decor.png";
+import mobileDecorHome from "@features/banner/assets/images/decor-mobile.png";
 
 const Banner = () => {
     return ( 
@@ -13,7 +14,7 @@ const Banner = () => {
                             >
                                 Хотите выгодно продать свою недвижимость?
                             </TypographyTitle>
-                            <p className="text-gray font-medium max-w-[92.6%] mb-[60px] max-lg:max-w-[70%] max-md:mb-[40px] max-md:text-[16px] max-sm:max-w-[100%]">
+                            <p className="text-gray font-medium max-w-[92.6%] mb-[60px] max-xl:max-w-[75%] max-lg:max-w-[70%] max-md:mb-[40px] max-md:text-[16px] max-sm:max-w-[100%]">
                                 Наши специалисты обеспечат честную оценку, грамотную презентацию и быстрый результат
                             </p>
                             <SecondaryButton 
@@ -25,11 +26,20 @@ const Banner = () => {
                         </div>
                         <div className="absolute right-0 top-[50%] transform-[translateY(-50%)] max-w-[26%] max-sm:max-w-[312px] max-sm:transform-none max-sm:static max-sm:ml-auto max-sm:mr-[-30px]">
                             <img 
+                                className="max-sm:hidden"
                                 src={decorHome} 
                                 alt="Home"
                                 loading="lazy"
                                 width={315}
                                 height={412} 
+                            />
+                            <img 
+                                className="hidden max-sm:block"
+                                src={mobileDecorHome} 
+                                alt="Home"
+                                loading="lazy"
+                                width={222}
+                                height={312} 
                             />
                         </div>
                     </div>

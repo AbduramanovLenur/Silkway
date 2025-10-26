@@ -8,7 +8,7 @@ const TypographyTitle = ({ children, className, isPrimary }: IProps) => {
     return (
         <>
             {isPrimary ? 
-                <h1 className={`${className} text-[45px] font-bold leading-[1.4] max-lg:text-[32px] max-md:text-[28px]`}>
+                <h1 className={`text-[45px] font-bold leading-[1.4] max-lg:text-[32px] max-md:text-[28px] ${className}`}>
                     {children}
                 </h1>
                 :
