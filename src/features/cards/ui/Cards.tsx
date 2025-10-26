@@ -8,7 +8,7 @@ const Cards = () => {
                     <TypographyTitle className="text-[38px] !leading-[0.63] mb-[23px] font-semibold max-lg:text-[32px] max-md:text-[28px] max-sm:text-[24px] max-md:mb-[15px] text-center">
                         Лучшие предложения месяца
                     </TypographyTitle>
-                    <p className="mb-[30px] text-black/60 font-medium text-center max-sm:text-[14px]">Подборка самых актуальных и выгодных предложений</p>
+                    <p className="leading-[1.3] mb-[30px] text-black/60 font-medium text-center max-sm:text-[14px]">Подборка самых актуальных и выгодных предложений</p>
                     <CardList />
                 </div>
             </div>
