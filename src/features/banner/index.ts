@@ -1,0 +1,1 @@
+export { default as Banner } from '@features/banner/ui/Banner';

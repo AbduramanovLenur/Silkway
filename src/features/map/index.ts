@@ -1,0 +1,1 @@
+export { default as Map } from '@features/map/ui/Map';
